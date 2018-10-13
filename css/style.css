@@ -1,21 +1,34 @@
 header{
 	position: fixed;
-	background-color: #eaf2ff;
+	background-color: #9bd9ea;
 	border: 2px solid black;
-	width: 945px;
+	width: 1500px;
+	padding-top: 20px;
 }
-.section-header{
+.section-header-1{
 	display: inline-block;
-	width: 50%
-	border: 2px solid yellow;
+	margin-left:200px;
+	width: 300px;
 }
-
-.div-header{
+.section-header-1 div{
 	display: inline-block;
-	border: 2px solid red;
+	font-weight: bolder;
+	font-size: xx-large;
+}
+.section-header-2{
+	display: inline-block;
+	margin-left: 400px;
+}
+li{
+	display: inline-block;
+	border-right: 2px solid black;
+	text-align: center;
+	font-size: xx-large;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 img{
-	width: 10%
+	width: 15%
 }
 main{
 	border: 2px solid black;
@@ -27,11 +40,6 @@ main{
 	margin: 10px 30px 40px 30px;
 
 }
-.scroll-to-top{
-	bottom: 0
-	border: 1px solid black;
-	width: 30px;
-}
 footer{
 	background-color: #6fa8dc;
 	border: 2px solid black;
@@ -41,26 +49,30 @@ footer{
 	padding: 5px;
 }
 a{
-	color: *#397dc3;
+	color: #397dc3;
 	font-size: large;
 	font-weight: bolder;
-}
-li{
-	display: inline-block;
-	border-right: 2px solid black;
-	margin: 5px 5px;
 }
 .scroll-to-top{
 	position: fixed;
   	top: 600px;
   	left: 1300px;
-  	padding: 5px;
-  	background-color: #6fa8dc;
   	border: 2px solid black;
   	border-radius: 5px;
-  	width: 120px;
+  	width: 150px;
 }
-.scroll-to-top.a{
+.scroll-to-top img{
+	display:inline-block;
+	width: 25%
+}
+.scroll-to-top div{
+	display: inline-block;
+}
+
+.scroll-to-top a{
 	color: black;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: large;
 }
 /*#7499c8*/
